@@ -53,8 +53,9 @@ p {
     font-weight: 100;
     color: #fff;
 }
+
 .navbar {
-    background: #181A1C;
+    background: #041F3B; 
     margin-bottom:0;
     min-height:70px;
 }
@@ -65,7 +66,7 @@ p {
     padding-top:0;
 }
 .navbar-inner {
-    background: #181A1C;
+    background: #041F3B; 
     border-radius:0;
     filter: none;
     border: none;
@@ -90,9 +91,9 @@ p {
     transition: border-color 1s ease;
 }
 .navbar .nav > li:hover> a, .navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
-    border: 1px solid #FECE1A;
+    border: 1px solid #1CA782;
     color: #fff;
-    background-color: #181A1C;
+    background-color: #041F3B;
     transition: border-color 1s ease;
 }
 .nav-pills {
@@ -117,6 +118,7 @@ p {
     background:#FECE1A;
     color: #000;
 }
+
 /******
 2. Layout
 **********************************************************************/
@@ -176,7 +178,7 @@ p {
     text-align:center;
     width: 0;
     height: 0;
-    border-top: 30px solid #181A1C;
+    border-top: 30px solid #041F3B; 
     border-left: 585px outset transparent;
     border-right: 585px outset transparent;
     position: relative;
@@ -359,19 +361,24 @@ p {
     font-weight: lighter;
 }
 .primary-section {
-    background:#181A1C;
+    background: #FFFFFF;
 }
 .primary-section .triangle {
-    border-top: 40px solid #FECE1A;
+    border-top: 40px solid #FECE1A; 
 }
 .primary-section .title {
     border-bottom: 1px solid #FFF;
 }
 .primary-section, .primary-section .title p, .primary-section h3 {
-    color: #FECE1A;
+    color: #1CA782;
 }
+
+.vision h3{
+    font-size: 40px;
+}
+
 .primary-section h1 {
-    color:#FFF;
+    color:#000000;
 }
 .secondary-section {
     background:#FECE1A;
@@ -483,6 +490,10 @@ p {
     -moz-box-sizing: border-box;
     padding: 10px;
     border: 1px solid #fff;
+}
+
+.who{
+    margin-top: 5%;
 }
 .team .thumbnail:hover .social {
     z-index: 5;
